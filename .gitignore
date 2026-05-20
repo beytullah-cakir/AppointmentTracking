@@ -1,0 +1,41 @@
+# --- General / OS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Frontend (React) ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Backend (ASP.NET Core / C#) ---
+backend/bin/
+backend/obj/
+backend/out/
+backend/.vs/
+backend/appsettings.Development.json
+backend/appsettings.Local.json
+backend/TestResults/
+backend/*.user
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# --- Python / AI (Optional) ---
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+backend/env/
+.env

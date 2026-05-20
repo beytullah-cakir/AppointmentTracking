@@ -1,0 +1,13 @@
+@RandevuTakip_HostAddress = http://localhost:5290
+
+GET {{RandevuTakip_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+POST {{RandevuTakip_HostAddress}}/api/Auth/Register
+Accept: application/json
+{
+
+}
+
+###
